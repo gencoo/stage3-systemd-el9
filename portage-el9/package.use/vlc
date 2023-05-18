@@ -1,0 +1,1 @@
+media-video/vlc -X -alsa -a52 -dbus -mad -dts -dvbpsi -dvd  -gcrypt -gnome-keyring -gstreamer -libsamplerate -mpeg -ncurses -ogg -qt5 -ssl -svg -udev -vorbis -wayland -x264 -xml

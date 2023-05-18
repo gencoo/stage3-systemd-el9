@@ -1,0 +1,21 @@
+app-crypt/gnupg -usb -smartcard
+app-crypt/gpgme -qt5
+app-crypt/pinentry -*
+app-misc/tracker -miners
+app-misc/tracker-miners -*
+app-text/evince gstreamer -tiff
+app-text/ghostscript-gpl cups
+dev-db/sqlite -icu
+dev-lang/yasm -nls
+dev-vcs/git -blksha1 -iconv -nls -pcre -perl threads -webdav
+gnome-base/gnome-shell -browser-extension -bluetooth
+gnome-base/nautilus -gstreamer -previewer
+gnome-extra/evolution-data-server -weather
+media-libs/gst-plugins-base -ogg -orc -pango -theora -vorbis
+media-libs/mesa -gallium -llvm -zstd
+media-sound/mpg123 -alsa -sdl -pulseaudio
+media-video/ffmpeg -dav1d 
+net-libs/webkit-gtk -geolocation -jpeg2k -jumbo-build -libnotify -opengl -spell -egl -gnome-keyring -seccomp -systemd 
+net-misc/networkmanager -ppp -bluetooth -wext -modemmanager
+net-print/cups-filters -pdf
+x11-libs/gtk+ -colord -cups

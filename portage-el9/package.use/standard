@@ -1,0 +1,35 @@
+#*/* -python_targets_python3_9 -python_single_target_python3_9
+x11-base/xorg-server kdrive xxephyr xnest xvfb suid xephyr xcsecurity dmx 
+app-arch/libarchive -*
+app-arch/rpm python lua -openmp -dbus -nls caps
+app-arch/tar -acl -nls
+app-crypt/pinentry -ncurses
+# required by core-agent-linux-network-manager
+net-wireless/wpa_supplicant dbus
+dev-libs/libgdata vala
+app-emulation/xen-tools -api -debug -doc -flask -hvm -ipxe -ocaml -ovmf -pam -pygrub -python -qemu -qemu-traditional -rombios -screen -sdl -static-libs -system-ipxe -system-qemu -system-seabios
+dev-lang/python -bluetooth
+sys-libs/pam audit selinux
+dev-libs/cyrus-sasl -berkdb -gdbm
+dev-libs/glib -mime
+dev-libs/glib utils
+dev-libs/libpcre jit readline -unicode
+dev-libs/libpcre2 -bzip2 -readline -zlib 
+dev-python/PyQt5 -dbus -multimedia -printsupport  -svg -ssl
+dev-qt/qtnetwork -ssl
+dev-qt/qtprintsupport -cups
+dev-qt/qtwebsockets -ssl
+media-libs/libcanberra -gstreamer -gtk 
+media-libs/libmetalink -xml
+media-libs/freetype harfbuzz
+net-firewall/iptables ipv6
+net-misc/wget cookie_check ntlm
+net-nds/openldap -tcpd
+sys-apps/coreutils multicall
+sys-apps/dbus user-session
+sys-apps/systemd xkb selinux lzma importd audit elfutils cryptsetup qrcode -http idn nat curl tpm 
+sys-apps/shadow -pam
+sys-devel/binutils cxx multitarget plugins
+sys-devel/gcc lto -nls -fortran openmp -vtv
+sys-libs/glibc static-pie
+sys-libs/libselinux pcre2 python

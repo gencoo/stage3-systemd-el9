@@ -1,0 +1,8 @@
+sys-libs/db -test
+dev-ruby/* -test
+dev-python/* -test
+app-misc/pax-utils -test
+>=app-arch/libarchive-3.6.2-r1 zstd
+>=net-libs/gnutls-3.7.6-r18 pkcs11 tools
+>=media-libs/harfbuzz-6.0.0 icu
+dev-util/pkgconf -test
