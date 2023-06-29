@@ -1,12 +1,8 @@
 dev-libs/json-glib
-dev-libs/openssl
 dev-util/bpftrace
 dev-util/trace-cmd
 net-dns/unbound
 net-fs/cifs-utils
-perl-core/File-Temp
-sys-apps/checkpolicy
-
 
 sys-boot/efibootmgr
 sys-boot/gnu-efi
@@ -16,11 +12,12 @@ sys-boot/syslinux
 sys-fs/cryptsetup
 sys-libs/efivar
 
+dev-libs/openssl
 sys-apps/policycoreutils
+sys-apps/checkpolicy
 sys-libs/libsemanage
 net-misc/openssh
 sys-fs/squashfs-tools
-
 sys-kernel/dracut
 
 app-arch/brotli

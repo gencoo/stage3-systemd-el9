@@ -28,7 +28,8 @@
 #LABEL=swap		none		swap		sw		0 0
 #/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
 
-UUID=781da7b9-6e37-42b6-9e08-b66384afbcf8 /                       ext4    defaults,discard 0 0
-UUID=37acb391-d267-4e86-bcd6-e1635fd0c182 /boot                   ext4    defaults,discard 1 2
-UUID=6455-BE2B          /boot/efi               vfat    umask=0077,shortname=winnt,discard 0 2
-UUID=fe4a21dc-5e6e-4f94-b7d5-b52aa3c98485 /home                   ext4    defaults         1 2
+UUID=e1aab2ed-7680-4b35-9412-c13c7cee5010 /                       xfs   defaults,discard 0 0
+UUID=22a833ec-c8db-4e41-9fbc-f7111d382629		none		swap		sw		0 0
+UUID=e2a91f02-6dce-4253-ab48-850fca7585be /boot                   ext4    defaults,discard 1 2
+UUID=B750-21FD          /boot/efi               vfat    umask=0077,shortname=winnt,discard 0 2
+UUID=0cd61cb3-c43a-4c9c-98e9-a5c3d3fd28e8 /home                   ext4    defaults         1 2

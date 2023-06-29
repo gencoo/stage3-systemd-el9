@@ -1,5 +1,5 @@
 hostnamectl set-hostname gencoo
-sudo emerge --ask app-portage/gentoolkit ntfs3g libXScrnSaver fuse proxychains
+sudo emerge --ask app-portage/gentoolkit ntfs3g libXScrnSaver fuse proxychains linux-firmware
 ln -s /etc/portage ~/portage
 ln -s /var/db/repos ~/repos
 sudo mv /usr/lib/firmware/{intel,i915} /usr/lib/

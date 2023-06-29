@@ -1,6 +1,7 @@
 app-i18n/ibus
 app-i18n/ibus-libpinyin
 app-i18n/libpinyin
+app-crypt/libsecret
 app-misc/geoclue
 app-misc/tracker
 app-misc/tracker-miners
@@ -13,6 +14,8 @@ dev-libs/libcdio
 dev-libs/libgusb
 dev-libs/libnl
 dev-libs/nss
+dev-util/sysprof
+dev-util/sysprof-capture
 gui-libs/gtk
 gui-libs/libhandy
 media-libs/gsound
