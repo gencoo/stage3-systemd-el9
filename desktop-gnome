@@ -13,7 +13,6 @@ dev-libs/libbytesize
 dev-libs/libcdio
 dev-libs/libgusb
 dev-libs/libnl
-dev-libs/nss
 dev-util/sysprof
 dev-util/sysprof-capture
 gui-libs/gtk
