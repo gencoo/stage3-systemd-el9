@@ -1,14 +1,10 @@
-dev-libs/json-glib
-dev-util/bpftrace
-dev-util/trace-cmd
-net-dns/unbound
-net-fs/cifs-utils
+app-doc/doxygen
+sys-boot/syslinux
 
 sys-boot/efibootmgr
 sys-boot/gnu-efi
 sys-boot/grub
 sys-boot/os-prober
-sys-boot/syslinux
 sys-fs/cryptsetup
 sys-libs/efivar
 
@@ -81,6 +77,7 @@ net-libs/libmicrohttpd
 dev-libs/libpcre2
 dev-libs/libpcre
 dev-libs/libpipeline
+dev-libs/libpwquality
 dev-libs/libsigsegv
 dev-libs/libtasn1
 dev-libs/libunistring
