@@ -1,5 +1,5 @@
 unused_patches=( "patch132 -p1" "patch251 -p1" "patch329 -p1" )
-inherit rhel8-a autotools flag-o-matic toolchain-funcs
+inherit rhel9-a autotools flag-o-matic toolchain-funcs
 CMAKE_MAKEFILE_GENERATOR=emake
 	set_build_flags
 	build_cflags
@@ -90,7 +90,8 @@ pkg_setup() {
 }
 
 src_unpack() {
-	rhel_src_unpack ${A}
+	#rhel_src_unpack
+	rpmbuild_src_unpack
 }
 
 src_unpack() {

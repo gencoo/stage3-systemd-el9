@@ -146,6 +146,7 @@
 >=sys-libs/libseccomp-2.5.4
 >=sys-libs/liburing-2.1
 >=sys-libs/libxcrypt-4.4.28
+>=sys-libs/libblockdev-3.0.2
 >=sys-libs/ncurses-6.3_p20221203
 >=sys-libs/pam-1.5.2
 >=sys-libs/readline-8.1_p1
