@@ -95,7 +95,7 @@ src_unpack() {
 }
 
 src_unpack() {
-	rhel_unpack ${A} && unpack ${WORKDIR}/*.tar.*
+	rpmbuild_unpack ${A} && unpack ${WORKDIR}/*.tar.*
 	rpmbuild --rmsource -bp $WORKDIR/*.spec --nodeps
 	sed -i "/patch5 -p1/d" ${WORKDIR}/*.spec
 	sed -i 's/EFI_VENDOR=fedora/EFI_VENDOR=qubes/g' ${S}/xen/Makefile
