@@ -25,6 +25,9 @@ DSUFFIX="_$(ver_cut 5).$(ver_cut 7)"
 suffix_ver=$(ver_cut 5)
 [[ ${suffix_ver} ]] && DSUFFIX="_${suffix_ver}"
 
+prefix_ver=$(ver_cut 4)
+[[ ${prefix_ver} ]] && DPREFIX="${prefix_ver}."
+
 DPREFIX="module+"
 VER_COMMIT=15816+ec020e8f
 DSUFFIX=".$(ver_cut 5).0+${VER_COMMIT}"

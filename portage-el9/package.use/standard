@@ -34,7 +34,7 @@ sys-kernel/rhel-kernel savedconfig
 sys-apps/shadow -pam
 sys-boot/grub mount -truetype
 sys-devel/binutils cxx multitarget plugins
-sys-devel/gcc lto -nls -fortran openmp -vtv
+sys-devel/gcc lto -nls -fortran openmp -vtv -cet
 #sys-devel/annobin plugin_rebuild
 sys-libs/glibc static-pie
 sys-libs/libselinux pcre2 python
