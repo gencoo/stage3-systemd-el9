@@ -1,5 +1,5 @@
 unused_patches=( "patch132 -p1" "patch251 -p1" "patch329 -p1" )
-inherit rhel9-a autotools flag-o-matic toolchain-funcs
+inherit autotools flag-o-matic toolchain-funcs rhel9-a
 CMAKE_MAKEFILE_GENERATOR=emake
 	set_build_flags
 	build_cflags
@@ -17,7 +17,7 @@ _hardened_build="undefine"
 _strip_cflags="undefine"
 _strip_ldflags="undefine"
 _annotated_build="undefine"
-
+	QLIST="enable"
 KEYWORDS="amd64 arm64 ~ppc64 ~s390"
 
 DSUFFIX="_$(ver_cut 5).$(ver_cut 7)"
